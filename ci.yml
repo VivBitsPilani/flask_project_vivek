@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: pip install pytest
+      - run: pip install pytest flask
       - run: pytest tests/  # Create a basic test file
 
   lint:
