@@ -1,5 +1,5 @@
 import pytest
-from app import app2
+from app2 import app2
 
 # Test client fixture
 @pytest.fixture
